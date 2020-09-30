@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Material(
       color: Coolors.primaryColor,
       child: VStack([
-        HeaderScreen(),
+        FirstScreen(),
         if (context.isMobile) IntroductionWidget().p16(),
         MiddleScreen(),
         FooterScreen(),
