@@ -5,7 +5,7 @@ import './colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class HeaderScreen extends StatelessWidget {
+class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final nameWidget = "Anurag\nTekale."
